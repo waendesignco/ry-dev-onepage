@@ -494,36 +494,6 @@ Projects
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media screen and (min-width: 1170px) {
-  .projects-center {
-    grid-template-rows: 200px 200px;
-    gap: 1rem;
-    grid-template-areas:
-      "a b c"
-      "a d e";
-  }
-  .project-img {
-    height: 100%;
-  }
-  .project {
-    height: 100%;
-  }
-  .project-1 {
-    grid-area: a;
-  }
-  .project-2 {
-    grid-area: b;
-  }
-  .project-3 {
-    grid-area: c;
-  }
-  .project-4 {
-    grid-area: d;
-  }
-  .project-5 {
-    grid-area: e;
-  }
-}
 /*
 =============== 
 Skills
@@ -812,12 +782,14 @@ Footer
 Projects Page
 ===============
 */
+/*
 .projects-hero {
   height: 40vh;
   background: var(--clr-primary-10);
   display: grid;
   place-items: center;
 }
+*/
 .projects-hero .section-title {
   margin-bottom: 0;
 }
