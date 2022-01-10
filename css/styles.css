@@ -31,10 +31,10 @@ Variables
   --clr-palette-3: hsl(26, 100%, 92%);
   --clr-palette-4: hsl(39, 87%, 78%);
   /* darkest grey used for headings */
-  --clr-grey-1: hsl(265, 12%, 28%);
-  --clr-grey-2: hsl(267, 11%, 35%);
-  --clr-grey-3: hsl(266, 11%, 41%);
-  --clr-grey-4: hsl(265, 11%, 45%);
+  --clr-grey-1: hsl(276, 12%, 20%);
+  --clr-grey-2: hsl(276, 11%, 23%);
+  --clr-grey-3: hsl(276, 11%, 25%);
+  --clr-grey-4: hsl(276, 10%, 30%);
   /* grey used for paragraphs */
   --clr-grey-5: hsl(265, 10%, 49%);
   --clr-grey-6: hsl(265, 9%, 60%);
@@ -320,7 +320,7 @@ Sidebar
   text-transform: capitalize;
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  color: var(--clr-grey-5);
+  color: var(--clr-4);
   letter-spacing: var(--spacing);
   display: inline-block;
   margin-bottom: 1.5rem;
