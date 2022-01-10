@@ -251,16 +251,19 @@ Navbar
   .nav-links a:hover {
     color: var(--clr-primary-5);
   }
-
   .ja-links {
     font-size: 0.7rem;
   }
-
   .nav-center {
     display: grid;
     grid-template-columns: auto 1fr;
     -webkit-box-align: center;
     align-items: center;
+  }
+}
+@media screen and (min-width: 992px) {
+  .ja-links {
+    font-size: 0.9rem;
   }
 }
 /* fixed navbar */
