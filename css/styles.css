@@ -377,7 +377,7 @@ Hero
   place-items: center;
 }
 .hero-info h4 {
-  color: var(--clr-grey-5);
+  color: var(--clr-grey-4);
 }
 .hero-icons {
   justify-items: start;
