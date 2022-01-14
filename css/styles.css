@@ -15,8 +15,8 @@ Variables
   /* dark shades of primary color*/
   --clr-primary-1: hsl(0, 86%, 17%);
   --clr-primary-2: hsl(0, 55%, 31%);
-  --clr-primary-3: hsl(0, 41%, 50%);
-  --clr-primary-4: hsl(0, 50%, 58%);
+  --clr-primary-3: hsl(0, 41%, 42%);
+  --clr-primary-4: hsl(0, 50%, 49%);
   /* primary/main color */
   --clr-primary-5: hsl(0, 77%, 76%);
   /* lighter tints of primary color */
@@ -137,7 +137,7 @@ p {
 /*  global classes */
 .btn {
   text-transform: uppercase;
-  background: var(--clr-primary-4);
+  background: var(--clr-primary-2);
   color: var(--clr-palette-3);
   padding: 0.375rem 0.75rem;
   margin: 0.375rem 0.25rem;
@@ -475,12 +475,12 @@ Projects
 }
 .project-lang {
   grid-column: 1 / 2;
-  color: var(--clr-primary-5);
+  color: var(--clr-primary-2);
 }
 .project-source {
   grid-column: 2 / 3;
   text-align: right;
-  color: var(--clr-primary-5);
+  color: var(--clr-primary-2);
 }
 @media screen and (min-width: 676px) {
   .projects-center {
@@ -523,25 +523,21 @@ Skills
   text-transform: capitalize;
   color: var(--clr-primary-1);
 }
-.service .underline {
-  width: 3rem;
-  height: 0.12rem;
+.skill-btn {
+  background: var(--clr-primary-4);
+  color: var(--clr-white);
+  padding: 0.375rem 0.75rem;
+  margin: 0.375rem 0.25rem;
+  letter-spacing: var(--spacing);
+  display: inline-block;
+  font-weight: 700;
   -webkit-transition: var(--transition);
   transition: var(--transition);
-}
-.service p {
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
-}
-.service:hover {
-  background: var(--clr-primary-5);
-  color: var(--clr-white);
-}
-.service:hover p {
-  color: var(--clr-white);
-}
-.service:hover .underline {
-  background: var(--clr-white);
+  font-size: 0.875rem;
+  border: 2px solid transparent;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: var(--radius);
 }
 .tools {
   background: var(--clr-white);
@@ -552,7 +548,6 @@ Skills
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
-
 @media screen and (min-width: 676px) {
   .skills-center {
     display: grid;
