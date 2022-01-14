@@ -119,7 +119,7 @@ p {
     font-size: 2.5rem;
   }
   h3 {
-    font-size: 1.75rem;
+    font-size: 1rem;
   }
   h4 {
     font-size: 1rem;
@@ -466,9 +466,6 @@ Projects
 .project-title {
   grid-column: 1 / 3;
   text-align: center;
-}
-.project-title h4 {
-  font-size: 0.875rem;
 }
 .project-desc {
   grid-column: 1 / 3;
